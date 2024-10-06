@@ -1,0 +1,211 @@
+.homesection {
+    display: flex;
+}
+
+.detailsSection {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 58%;
+    padding: 3.8rem 7rem 2rem 5rem;
+}
+
+.cardsSection {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 42%;
+    display: flex;
+    gap: 40px;
+    padding-right: 15px;
+}
+
+.spanHeading {
+    color: #FFA4D5;
+
+    font-size: 20px;
+}
+
+.detaildsHeading {
+    font-size: 3.9rem;
+    margin-block: 20px;
+}
+
+.subheading {
+    font-size: 1.2rem;
+}
+
+.buttonSection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-block: 36px;
+}
+
+.exploreButton {
+    height: 34px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding-inline: 15px;
+}
+
+.exploreButton:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+.demospan {
+    border-bottom: 1px dashed blue;
+    color: blue;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.trustedcompaniesSeciton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.playsize {
+    cursor: pointer;
+}
+
+.testheading {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logosize {
+    height: 55px;
+    width: 99px;
+}
+
+.conpanisesLogo {
+    gap: 5px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .homesection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardsSection {
+        width: 100vw;
+    }
+
+    .detailsSection {
+        width: 100vw;
+        padding: 2.6rem;
+    }
+
+    .detaildsHeading {
+        font-size: 2.5rem;
+
+    }
+}
+
+.leftpane {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightpane {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how {
+    background: #AEE5FF;
+    border-radius: 24px;
+    padding: 2.4rem;
+
+    h5 {
+        margin-block: 10px;
+        font-weight: 700;
+    }
+}
+
+.cardimgg {
+    min-width: 250px;
+    height: 100%;
+
+}
+
+.cardimg {
+    max-height: 300px;
+
+}
+
+.ratingcard {
+    background: black;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 120px;
+    font-weight: 500;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.totalusers {
+    background: #F1F1F1;
+    border-radius: 24px;
+    padding: 2.4rem;
+    color: black;
+
+    span {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    h5 {
+
+        font-size: 16px;
+    }
+}
+
+.languagecard {
+    background: #C3FFD2;
+    border-radius: 24px;
+    padding: 2.4rem 2.4rem 1rem 2.4rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+}
+
+.langTitle {
+    border-bottom: 1px solid black;
+    padding-block: 5px;
+}
+
+.langBUtton {
+    height: 34px;
+    background: #FF7C75;
+
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding-inline: 15px;
+    margin-top: 22px;
+}
